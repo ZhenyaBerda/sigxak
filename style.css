@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #000;
+  background-color: #ecfffc;
 }
 
 h1,
@@ -107,5 +108,163 @@ h6 {
     margin-right: 0;
 }
 
+.section__header{
+    height: 140px;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.section__title{
+    color: #140e1d;
+font-family: 'Signika', sans-serif;
+font-size: 48px;
+font-weight: 600;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.section__decor{
+    margin-top: 30px;
+    margin-bottom: 56px;
+}
+
+.section__text{
+    color: #000000;
+    font-family: 'Signika';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.section__header{
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.about__section{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.about__text{
+    width: 1360px;
+    height: 165px;
+    margin-bottom: 105px;
+}
+
+.text__item{
+    padding: 0;
+    display: inline-block;
+    width: 618px;
+    height: 100%;
+
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    word-wrap: break-word;
+
+    margin-right: 65px;
+}
+
+.text__item:last-child{
+    margin-right: 0;
+}
+
+.about__workers{
+    height: 540px;
+    width: 1397px;
+}
 
 
+
+.workers__item{
+    display: inline-block;
+    
+    vertical-align: top;
+    width: 270px;
+    height: 536px;
+   
+    margin-right: 105px;
+    color: #000000;
+    font-family: 'Signika', sans-serif;
+
+    transition: background-color .2s linear;
+}
+
+
+
+
+.workers__item:hover{
+    color: #ffffff;
+    background-color: #00a388;
+    
+}
+
+.workers__item:hover .worker__text,
+.workers__item:hover .worker__social{
+    opacity: 1;
+}
+
+.workers__item:last-child{
+    margin-right: 0;
+}
+
+.worker__header{
+    margin: 0 auto;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.worker__title{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.worker__subtitle{
+    padding-top: 25px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.worker__text,
+.worker__social{
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.worker__text{
+    margin: 0 auto;
+    width: 225px;
+    height: 76px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.worker__social{
+    margin: 31px  auto 0;
+    height: 22px;
+}
