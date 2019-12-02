@@ -16,7 +16,7 @@ h6 {
 
 .container {
   width: 100%;
-  max-width: 1401px;
+  max-width: 1402px;
   margin: 0 auto;
 }
 
@@ -296,19 +296,18 @@ h6 {
 }
 
 .portfolio__text {
-    width: 270px;
-    height: 135px;
-    position: absolute;
-    top: 95px;
-    left: 105px;
-    z-index: 5;
-    opacity: 0;
-    transition: opacity .2s linear;
-
+  width: 270px;
+  height: 135px;
+  position: absolute;
+  top: 95px;
+  left: 105px;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.2s linear;
 }
 
 .portfolio__item:hover .portfolio__text {
-    opacity: 1;
+  opacity: 1;
 }
 
 .text__header {
@@ -318,7 +317,7 @@ h6 {
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
- 
+
   padding-bottom: 35px;
 }
 
@@ -333,17 +332,16 @@ h6 {
   padding-bottom: 25px;
 }
 
-.services__section{
+.services__section {
   background-color: #ffffff;
   height: 1164px;
 }
 
-.services__inner{
+.services__inner {
   width: 100%;
   max-width: 1400px;
   height: 700px;
   margin: 75px auto 0;
-  
 }
 
 .services__item:nth-child(odd) {
@@ -357,20 +355,20 @@ h6 {
   background-color: #ffffff;
   margin: 0;
   display: inline-block;
-  transition:  background-color .1s linear;
+  transition: background-color 0.1s linear;
 }
 
 .services__item:hover {
   background-color: #f5fffd;
 }
 
-.services__img{
+.services__img {
   margin-bottom: 23px;
 }
 
 .services__header {
   color: #140e1d;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 18px;
@@ -381,7 +379,7 @@ h6 {
 
 .services__text {
   color: #333333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
@@ -392,7 +390,7 @@ h6 {
 .services__link {
   position: absolute;
   color: #140e1d;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
@@ -402,9 +400,66 @@ h6 {
   right: 0;
   bottom: 0;
   opacity: 0;
-  transition: opacity .1s linear;
+  transition: opacity 0.1s linear;
 }
 
 .services__item:hover .services__link {
   opacity: 1;
+}
+
+.blog__inner {
+  width: 1401px;
+  height: 1396px;
+  margin: 65px auto 0;
+  font-size: 0;
+  padding-bottom: 223px;
+}
+
+.blog__item {
+  display: inline-block;
+  width: 322px;
+  height: 679px;
+  background-color: #ffffff;
+  text-align: left;
+  margin-right: 35px;
+  margin-bottom: 36px;
+}
+
+.blog__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.blog__item img {
+  width: 323px;
+  height: 323px;
+}
+
+.item__inner {
+  margin: 30px auto 0;
+  width: 266px;
+  height: 287px;
+}
+
+.blog__suptitle {
+  color: #00a388;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.48px;
+}
+
+.blog__title {
+  font-family: "Signika";
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35.79px;
+  margin-top: 20px;
+}
+
+.blog__text {
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.64px;
 }
