@@ -476,7 +476,6 @@ h6 {
   padding-bottom: 172px;
 }
 
-
 .contact__inner {
   width: 1175px;
   margin: 0 auto;
@@ -494,7 +493,6 @@ h6 {
   width: 565px;
   vertical-align: top;
 }
-
 
 .contact__item:last-child {
   margin-right: 0;
@@ -522,7 +520,7 @@ textarea {
   padding-top: 26px;
 }
 
-.contact__submit{
+.contact__submit {
   margin-top: 50px;
   height: 45px;
   width: 145px;
@@ -530,10 +528,16 @@ textarea {
   text-align: center;
 
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
   font-weight: 400;
   font-variant: small-caps;
+}
+
+.navbar__end {
+  background-color: #02c5a5;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -541,16 +545,46 @@ textarea {
 }
 
 .footer__inner {
-  padding-top: 120px;
+  display: flex;
+
+  padding: 120px 0;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
-.footer__items {
+.footer__item {
   display: inline-block;
   width: 160px;
   margin-right: 73px;
+}
+
+.footer__social {
+  margin: auto;
+  margin-left: 404px;
+}
+
+.footer__social img {
+  margin-right: 10px;
+}
+
+.copyright {
+  background-color: #000000;
+}
+
+.copyright__inner {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.copuright__text {
+  color: #ffffff;
+  font-family: 'Signika', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
 }
